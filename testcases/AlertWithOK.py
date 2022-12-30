@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.common.by import By
 
+
 driver=webdriver.Chrome()
 driver.maximize_window()
 url="https://demo.automationtesting.in/Alerts.html"
